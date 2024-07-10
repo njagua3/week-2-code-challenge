@@ -1,79 +1,82 @@
 /* Basic reset */
+/* Reset default margin, padding, and box-sizing for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Basic styles for the body element */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: Arial, sans-serif; /* Font style for the entire page */
+    background-color: black; /* Background color for the entire page */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
 }
 
+/* Container styles for the main content area */
 .container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    background-color: #fff; /* White background for the container */
+    padding: 20px; /* Space inside the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow around the container */
+    width: 300px; /* Fixed width for the container */
 }
 
+/* Styles for the main heading */
 h1 {
-    margin-bottom: 20px;
-    text-align: center;
+    margin-bottom: 7px; /* Space below the heading */
+    text-align: center; /* Center the heading text */
 }
 
+/* Styles for the input section */
 .input-section {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+    display: flex; /* Arrange child elements in a row */
+    gap: 10px; /* Space between input and button */
+    margin-bottom: 20px; /* Space below the input section */
 }
 
+/* Styles for input fields */
 input {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    flex: 1; /* Make the input field take up available space */
+    padding: 10px; /* Space inside the input field */
+    border: 1px solid #ddd; /* Light border for the input field */
+    border-radius: 4px; /* Rounded corners for the input field */
 }
 
+/* Styles for the button */
 button {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
+    padding: 10px 15px; /* Space inside the button */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Rounded corners for the button */
+    background-color: brown; /* Background color of the button */
+    color: #fff; /* Text color for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+/* Button hover state */
 button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Darker background color when hovering */
 }
 
+/* Styles for the item list */
 .item-list {
-    list-style-type: none;
-    margin-bottom: 20px;
+    list-style-type: none; /* Remove default list bullets */
+    margin-bottom: 20px; /* Space below the item list */
 }
 
+/* Styles for individual list items */
 .item-list li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    cursor: pointer;
+    padding: 10px; /* Space inside each list item */
+    border-bottom: 1px solid #ddd; /* Light border below each list item */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
 
+/* Styles for purchased items in the list */
 .item-list li.purchased {
-    text-decoration: line-through;
-    color: #6c757d;
-    background-color: #e9ecef;
+    text-decoration: line-through; /* Strikethrough text for purchased items */
+    color: #6c757d; /* Gray color for purchased items */
+    background-color: #e9ecef; /* Light background color for purchased items */
 }
-
-.button-section {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-
