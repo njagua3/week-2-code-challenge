@@ -18,9 +18,15 @@
 
 Handles the functionality of the application:
 
+
 addButton: Adds new items to the list.
 itemList: Allows toggling the purchased status of items.
 markPurchasedButton: Toggles the purchased status for all items.
 clearListButton: Clears all items from the list.
 itemInput: Allows adding items by pressing the Enter key.
 localStorage: Saves and retrieves the shopping list data.
+
+
+
+## Links 
+- [Live Site URL](https://week-2-code-challenge-alpha.vercel.app/)
